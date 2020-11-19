@@ -265,7 +265,7 @@ class StergenDialogWindow(QDialog, Ui_Dialog_Stergen_Dialog):
                                         RodIsDone=1
 
                                         pl = float(pl_line)
-                                        length = float(length_line)
+                                        length = int(length_line)
                                         modUpr = float(modUpr_line)
                                         dopuskNapr = float(dopuskNapr_line)
                                         if len(datasForGraf) == 0:
